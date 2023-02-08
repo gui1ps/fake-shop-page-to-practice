@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(63deg, #FBAB7E 0%, #F7CE68 100%);
+}
+#center-main{
+    display: flex;
+    justify-content: center;
+}
+
+/*Top page*/
+header{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255,255, 255, 0.1);
+    border-radius: 0px 0px 7px 7px;
+}
+#navbar{
+    padding: 10px 30px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#navbar-ul{
+    font-size: 25px;
+    font-weight: 200;
+    display: flex;
+    color:#F04E00;
+    margin: auto;
+    list-style: none;
+}
+#navbar-ul>li{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#navbar-ul>li>a{
+    color:#F04E00;
+    text-decoration: none;
+}
+#navbar-ul>li>a:visited{
+    color:#F04E00;
+    text-decoration: none;
+}
+#banner{
+    border-bottom: 1px solid rgba(255,255, 255, 0.25);
+    border-top: 1px solid rgba(255,255, 255, 0.25);
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+/*Top page*/
+
+/*Main page*/
+#about{
+    margin: 10px;
+}
+#content{
+    margin: 10px;
+}
+.container{
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    background-color: rgba(255,255,255,0.2);
+    margin: 10px;
+    border-radius: 10px;
+}
+.txt{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+}
+.img-container{
+    margin: 10px;
+}
+.img-container>img{
+    display: inline-block;
+    border-radius: 8px;
+}
+/*Main page*/
+
+/*Footer*/
+#footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+#contact-txt{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    letter-spacing: 5px;
+}
+#contact-ul{
+    list-style: none;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+}
+#contact-ul>li{
+    margin: auto;
+}
+#contact-ul>li>a>svg{
+    border: 1px transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: border 1s;
+}
+#contact-ul>li>a>svg:hover{
+    border: 1px solid #F04E00;
+}
+/*Footer*/
+
+
+
